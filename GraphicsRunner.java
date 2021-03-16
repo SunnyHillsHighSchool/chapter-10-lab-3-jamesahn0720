@@ -17,6 +17,7 @@ public class GraphicsRunner extends JFrame
   getContentPane().add(new Tree());
 
   setVisible(true);
+  setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
  }
 
  
